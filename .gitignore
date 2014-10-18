@@ -1,0 +1,5 @@
+/appengine/target
+/appengine/.settings
+/appengine/.classpath
+/appengine/.project
+*~

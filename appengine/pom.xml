@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>jar</packaging>
+
+    <groupId>hu.sjuhasz.lib</groupId>
+    <artifactId>AppengineLib</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    
+    <properties>
+        <appengine.version>1.19.0</appengine.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+          <groupId>com.google.api-client</groupId>
+          <artifactId>google-api-client</artifactId>
+          <version>${appengine.version}</version>
+        </dependency>
+        
+      <dependency>
+          <groupId>com.google.apis</groupId>
+          <artifactId>google-api-services-tasks</artifactId>
+          <version>v1-rev36-${appengine.version}</version>
+      </dependency>
+      
+      <dependency>
+          <groupId>com.google.oauth-client</groupId>
+          <artifactId>google-oauth-client-appengine</artifactId>
+          <version>${appengine.version}</version>
+      </dependency>
+          
+        <dependency>
+            <groupId>com.google.appengine</groupId>
+            <artifactId>appengine-api-1.0-sdk</artifactId>
+            <version>1.9.11</version>
+        </dependency>
+
+    </dependencies>
+</project>
